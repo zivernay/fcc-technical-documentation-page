@@ -1,0 +1,83 @@
+body{
+    background-color: rgb(119, 118, 118);
+    font-size: 12px;
+    font-family: 'Roboto', sans-serif; /*paragraphs*/
+    color: honeydew;
+}
+
+/*layout*/
+img{
+    max-width: 100%;
+    margin: 0 auto;
+}
+header, main, section, footer, .mobile-image-400{
+    max-width: 720px;
+}
+#page-header{
+    background-color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 0.5em;
+    margin-bottom: 50px;
+}
+figure{
+    position: relative;
+    display: inline-block;
+    padding: 0;
+    transform: translate(0, 50px);
+}
+figcaption{
+    font-size: 10px;
+    align-items: flex-start;
+    position: absolute;
+    bottom: 0.25em;
+    left: 0.5em;
+    opacity: 0.5;
+}
+header{
+    font-family: 'Montserrat', sans-serif; /*headings*/
+    padding: 1em auto;
+}
+#navbar{
+    position: sticky;
+    top: -40px;
+}
+#navbar p{
+    text-align: justify;
+    height: 45px;
+}
+.nav-links a{
+    background-color: rgb(0, 0, 0);
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: 25%;
+    padding: 5px;
+    height: 2em;
+    text-align: center;
+}
+.nav-links-r2 a{
+    flex-basis: 33%;
+}
+.nav-links-r2{
+    border-top: 1px solid rgb(133, 133, 133);
+}
+a.nav-link, a.nav-link:visited{
+    color: white;
+    text-decoration: none;
+}
+a:hover{
+    background-color: rgb(32, 32, 32);
+    border-left: 1px solid white;
+    border-right: 1px solid white;
+}
+
+
+
+.h-align{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.v-align{
+    display: flex;
+    flex-direction: column;
+}

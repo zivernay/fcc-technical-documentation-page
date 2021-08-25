@@ -4,7 +4,11 @@
         <title>Technical Documentation</title>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style/reset.css">
         <link rel="stylesheet" href="style/documentation.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto&display=swap" rel="stylesheet">
     </head>
     <body>
         <header id="page-header">
@@ -16,11 +20,11 @@
             </p>
             <figure>
                 <picture>
-                    <source srcset="/images/sigmund-HsTnjCVQ798-unsplash.jpg" media="(max-width:400px)">
-                    <source srcset="/images/oli-dale-xjSkI_seiZY-unsplash.jpg" media="(min-width:400px)">
+                    <source srcset="/images/oli-dale-xjSkI_seiZY-unsplash.jpg" media="(max-width:400px)">
+                    <source srcset="/images/sigmund-HsTnjCVQ798-unsplash.jpg" media="(min-width:720px) and (max-width:1080px)">
                     <img src="/images/kevin-bhagat-zNRITe8NPqY-unsplash.jpg" alt="wallpaper of a macbook">
                 </picture>
-                <figcaption>
+                <figcaption class="v-align">
                     <cite>Photo by <a class="cite-link" href="https://unsplash.com/@sigmund?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Sigmund</a> on <a href="https://unsplash.com/s/photos/documentation?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a></cite>
                     <cite>Photo by <a class="cite-link" href="https://unsplash.com/@olidale?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Oli Dale</a> on <a href="https://unsplash.com/s/photos/working?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a></cite>
                     <cite>Photo by <a class="cite-link" href="https://unsplash.com/@kevnbhagat?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Kevin Bhagat</a> on <a href="https://unsplash.com/s/photos/working?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a></cite>
@@ -29,15 +33,21 @@
         </header>
         <nav id="navbar">
             <header>
-                <p>Although the element didn't make its way into specifications until HTML5, it actually existed at the very beginning of HTML. As seen in the very first website, it was originally used as the <head> element.</p>
+                <p>Although the element didn't make its way into specifications until HTML5, it actually existed at the very beginning of HTML. As seen in the very first website, originally used as element.</p>
             </header>
-            <a class="nav-link" href="#Morbi_venenatis_diam">Morbi venenatis diam</a>
-            <a class="nav-link" href="#Maecenas_id_massa_sit">Maecenas id massa sit</a>
-            <a class="nav-link" href="#Morbi_mattis">Morbi mattis</a>
-            <a class="nav-link" href="#Donec_a_nunc_a_orci">Donec a nunc a orci</a>
-            <a class="nav-link" href="#Nunc_vehicula_risus.">Nunc vehicula risus.</a>
-            <a class="nav-link" href="#Donec_a_est_eget">Donec a est eget</a>
-            <a class="nav-link" href="#Cras_eu_est">Cras eu est</a>
+            <div class="nav-links v-align">
+            <div class="nav-links-r1 h-align">
+                <a class="nav-link" href="#Morbi_venenatis_diam">Morbi venenatis diam</a>
+                <a class="nav-link" href="#Maecenas_id_massa_sit">Maecenas id massa sit</a>
+                <a class="nav-link" href="#Morbi_mattis">Morbi mattis</a>
+                <a class="nav-link" href="#Donec_a_nunc_a_orci">Donec a nunc a orci</a>
+            </div>
+            <div class="nav-links-r2 h-align">
+                <a class="nav-link" href="#Nunc_vehicula_risus.">Nunc vehicula risus.</a>
+                <a class="nav-link" href="#Donec_a_est_eget">Donec a est eget</a>
+                <a class="nav-link" href="#Cras_eu_est">Cras eu est</a>
+            </div>
+            </div>
         </nav>
         <main id="main-doc">
             <section id="Morbi_venenatis_diam" class="main-section">
