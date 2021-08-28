@@ -3,7 +3,6 @@ body{
     font-family: 'Roboto', sans-serif; /*paragraphs*/
     color: #ffffff;
     background-color: #d1d1cf;
-    background: url("https://github.com/zivernay/fcc-technical-documentation-page/blob/main/images/kevin-bhagat-zNRITe8NPqY-unsplash.jpg");
 }
 
 /*layout*/
@@ -93,6 +92,7 @@ a.nav-link:hover{
     background-color: rgb(0, 0, 0);
     margin-bottom: 1em;
     border-radius: 1em;
+    padding-bottom: 1em;
 }
 .main-section header{
     font-size: 16px;
@@ -105,7 +105,6 @@ article p{
     margin:0.5em auto;
 }
 article ul li{
-    list-style-image: url(https://tenor.com/bmu4M.gif);
     list-style-type: square;
 }
 article ul, ol, dl{
@@ -178,9 +177,6 @@ footer p{
     .main-section header{
         font-size: 22px;
         font-weight: bolder;
-    }
-    .main-section{
-        padding-bottom: 1em;
     }
     #navbar{
         width: 200px;
